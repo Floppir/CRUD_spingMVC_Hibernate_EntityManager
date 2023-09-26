@@ -6,5 +6,7 @@ import java.util.List;
 
 public interface CarService {
 
-    List<Car> listCarsByQuantity (List<Car> cars, int quantity);
+    List<Car> listCarsByQuantity(List<Car> cars, int quantity);
+
+    List<Car> getNewListCarsForTest();
 }
